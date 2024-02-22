@@ -61,5 +61,3 @@ Access Swagger UI at http://localhost:8080/swagger-ui.html for detailed API docu
 - Book Ticket API : `@PostMapping("bookTicket")`
 - Download Movie Ticket API : `@GetMapping("viewTicket")` and more...
 
-![Screenshot (1)](https://github.com/rishabh0085/Book-My-Show/assets/52191143/c8c01325-7cf0-41e2-821e-3de5126b63ac)
-![Screenshot (2)](https://github.com/rishabh0085/Book-My-Show/assets/52191143/768b7034-ee6a-4016-83c5-cca886a766d2)
