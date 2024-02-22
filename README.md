@@ -45,44 +45,35 @@ Access Swagger UI at http://localhost:8080/swagger-ui.html for detailed API docu
 
 #20+ APIs Writtern:
 
-1.Add Movie API : @PostMapping("addMovie")
+Add Movie API : @PostMapping("addMovie")
 
-2.Update Movie Details API : @PutMapping("updateMovie")
+Update Movie Details API : @PutMapping("updateMovie")
 
-3.Most Liked Movie API : @GetMapping("mostLikedMovie")
+Most Liked Movie API : @GetMapping("mostLikedMovie")
  
-4.Delete Movie API : @DeleteMapping("deleteMovie")
+Delete Movie API : @DeleteMapping("deleteMovie")
 
-5.Add Show API : @PostMapping("addShow")
+Add Show API : @PostMapping("addShow")
 
-6.Delete Show API : @DeleteMapping("deleteShow")
+Delete Show API : @DeleteMapping("deleteShow")
 
-7.Add Show Seats API : @PostMapping("addShowSeats")
+Add Show Seats API : @PostMapping("addShowSeats")
 
-8.Get Shows on Given Date API : @GetMapping("getShowsOnGivenDate")
+Get Shows on Given Date API : @GetMapping("getShowsOnGivenDate")
 
-9.Count of Booked Seats API : @GetMapping("countOfBookedSeats")
+Count of Booked Seats API : @GetMapping("countOfBookedSeats")
 
-10.Add Theater API : @RequestMapping("addTheater")
+Add Theater API : @RequestMapping("addTheater")
 
-11.Delete Theater API : @DeleteMapping("deleteTheater")
+Delete Theater API : @DeleteMapping("deleteTheater")
 
-12.Add Physical Theater Seats API : @PostMapping("addTheaterSeats")
+Add Physical Theater Seats API : @PostMapping("addTheaterSeats")
 
-13.Get GrossRevenue of Movie : @GetMapping("grossRevenueOfMovie")
+Get GrossRevenue of Movie : @GetMapping("grossRevenueOfMovie")
 
-14.Book Ticket API : @PostMapping("bookTicket")
+Book Ticket API : @PostMapping("bookTicket")
 
-15.Download Movie Ticket API : @GetMapping("viewTicket")
+Download Movie Ticket API : @GetMapping("viewTicket") and more...
 
-16.Cancel Movie Ticket API : @DeleteMapping("cancelBookedTicket")
-
-17.Add User API : @PostMapping("addUser")
-
-18.Get User Profile API :  @GetMapping("getUserProfile") 
-
-19. Update User Profile API : @PutMapping("updateUser")
-
-20. Delete User API : @DeleteMapping("deleteUser")
 
 
