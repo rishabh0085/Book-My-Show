@@ -45,17 +45,19 @@ Access Swagger UI at http://localhost:8080/swagger-ui.html for detailed API docu
 
 #20+ APIs Writtern:
 
-- POST /issue-card: Issue a library card to a student.
-- POST /associateCardWithStudent: Associate a library card with a student.
-- POST /addBook: Add a new book to the library.
-- POST /addAuthor: Add a new author to the library system.
-- POST /addStudent: Add a new student to the library system.
-- POST /return-book: Return a book to the library.
-- POST /record-transaction: Record a transaction (e.g., borrowing, returning).
-- GET /authors/{id}: Find an author by ID.
-- GET /books/{id}: Find a book by ID.
-- GET /students/{id}: Find a student by ID.
-- POST /generate-library-card: Generate a new library card for a student.
-- PUT /update-phone/{studentId}: Update a student's phone number and more...
-
+- Add Movie API : `@PostMapping("addMovie")`
+- Update Movie Details API : `@PutMapping("updateMovie")`
+- Most Liked Movie API : `@GetMapping("mostLikedMovie")`
+- Delete Movie API : `@DeleteMapping("deleteMovie")`
+- Add Show API : `@PostMapping("addShow")`
+- Delete Show API : `@DeleteMapping("deleteShow")`
+- Add Show Seats API : `@PostMapping("addShowSeats")`
+- Get Shows on Given Date API : `@GetMapping("getShowsOnGivenDate")`
+- Count of Booked Seats API : `@GetMapping("countOfBookedSeats")`
+- Add Theater API : `@RequestMapping("addTheater")`
+- Delete Theater API : `@DeleteMapping("deleteTheater")`
+- Add Physical Theater Seats API : `@PostMapping("addTheaterSeats")`
+- Get Gross Revenue of Movie : `@GetMapping("grossRevenueOfMovie")`
+- Book Ticket API : `@PostMapping("bookTicket")`
+- Download Movie Ticket API : `@GetMapping("viewTicket")` and more...
 
