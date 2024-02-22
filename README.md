@@ -45,35 +45,21 @@ Access Swagger UI at http://localhost:8080/swagger-ui.html for detailed API docu
 
 #20+ APIs Writtern:
 
-Add Movie API : @PostMapping("addMovie")
-
-Update Movie Details API : @PutMapping("updateMovie")
-
-Most Liked Movie API : @GetMapping("mostLikedMovie")
- 
-Delete Movie API : @DeleteMapping("deleteMovie")
-
-Add Show API : @PostMapping("addShow")
-
-Delete Show API : @DeleteMapping("deleteShow")
-
-Add Show Seats API : @PostMapping("addShowSeats")
-
-Get Shows on Given Date API : @GetMapping("getShowsOnGivenDate")
-
-Count of Booked Seats API : @GetMapping("countOfBookedSeats")
-
-Add Theater API : @RequestMapping("addTheater")
-
-Delete Theater API : @DeleteMapping("deleteTheater")
-
-Add Physical Theater Seats API : @PostMapping("addTheaterSeats")
-
-Get GrossRevenue of Movie : @GetMapping("grossRevenueOfMovie")
-
-Book Ticket API : @PostMapping("bookTicket")
-
-Download Movie Ticket API : @GetMapping("viewTicket") and more...
+- Add Movie API : `@PostMapping("addMovie")`
+- Update Movie Details API : `@PutMapping("updateMovie")`
+- Most Liked Movie API : `@GetMapping("mostLikedMovie")`
+- Delete Movie API : `@DeleteMapping("deleteMovie")`
+- Add Show API : `@PostMapping("addShow")`
+- Delete Show API : `@DeleteMapping("deleteShow")`
+- Add Show Seats API : `@PostMapping("addShowSeats")`
+- Get Shows on Given Date API : `@GetMapping("getShowsOnGivenDate")`
+- Count of Booked Seats API : `@GetMapping("countOfBookedSeats")`
+- Add Theater API : `@RequestMapping("addTheater")`
+- Delete Theater API : `@DeleteMapping("deleteTheater")`
+- Add Physical Theater Seats API : `@PostMapping("addTheaterSeats")`
+- Get Gross Revenue of Movie : `@GetMapping("grossRevenueOfMovie")`
+- Book Ticket API : `@PostMapping("bookTicket")`
+- Download Movie Ticket API : `@GetMapping("viewTicket")` and more...
 
 
 
