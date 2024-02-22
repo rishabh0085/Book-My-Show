@@ -13,7 +13,7 @@ Book-My-Show is a Web-based ticket booking platform using Spring Boot, Maven, Lo
 - Movie search feature
 - 20+ RESTful APIs for various functionalities
 
-## Technologies Used
+# Technologies Used
 
 - Java
 - Spring Boot
@@ -25,7 +25,7 @@ Book-My-Show is a Web-based ticket booking platform using Spring Boot, Maven, Lo
 - Maven
 - Lombok
 
-##Setup
+#Setup
 
 -Clone the repository: bash Copy code git clone https://github.com/your-username/book-my-show-appication.git
 
