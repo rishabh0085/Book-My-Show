@@ -3,7 +3,7 @@
 Book-My-Show is a Web-based ticket booking platform using Spring Boot, Maven, Lombok, and RESTful APIs.This application comes with intuitive movie selection, secure transactions, and admin theater management capabilities.
 • In this Backend application you can book tickets with E-mail Integration, find shows, search-movies and more.
 
-## Features
+# Features
 
 - Intuitive movie selection
 - transactions
