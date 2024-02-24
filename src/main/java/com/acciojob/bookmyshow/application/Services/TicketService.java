@@ -134,7 +134,7 @@ public class TicketService {
         simpleMailMessage.setSubject("Movie Ticket Conformation!!!");
         simpleMailMessage.setText(showTicketResponse.toString());
 
-        //javaMailSender.send(simpleMailMessage);
+        javaMailSender.send(simpleMailMessage);
 
         return showTicketResponse;
 
