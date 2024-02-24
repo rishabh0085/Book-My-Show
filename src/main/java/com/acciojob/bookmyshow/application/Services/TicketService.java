@@ -91,7 +91,7 @@ public class TicketService {
                 ticket.getTheaterNameAndAddress() + " has been booked Successfully!!! . Your Booked seats are " + ticket.getNoOfBookedSeats() + " [" + ticket.getSeatType() + "]" + ". Your show Time " + ticket.getMovieTiming() + " and Show Date is" + " "
                 + ticket.getMovieDate() + ". Total Amount of Rs " + ticket.getTotalAmountPaid() + " is already Paid. Enjoy the Movie!!!");
 
-        //javaMailSender.send(msg);
+        javaMailSender.send(msg);
 
         return "Ticket has been booked Successfully!!! with TicketID " + ticket.getTicketId();
 
